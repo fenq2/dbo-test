@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>DBO Test</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div class="page-wrapper">
+            <div class="table">
+                <div class="table__header">
+                    <div class="tr">
+                        <div class="td">
+                            <span class="td__name">Название товара</span>
+                        </div>
+                        <div class="td">
+                            <span class="td__name">Количество</span>
+                        </div>
+                        <div class="td">
+                            <span class="td__name">Стоимость 1 ед.</span>
+                        </div>
+                        <div class="td sort-btn">
+                            <span class="td__name">Общая стоимость</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="table__body">
+                    <div class="tr">
+                        <div class="td">
+                            <span class="td__name">Красный носок</span>
+                        </div>
+                        <div class="td">
+                            <span class="td__name">
+                                <div class="input">
+                                    <input
+                                        type="number"
+                                        class="input-item input-item--count"
+                                        value="1"
+                                    />
+                                </div>
+                            </span>
+                        </div>
+                        <div class="td">
+                            <div class="input">
+                                <input
+                                    type="number"
+                                    class="input-item input-item--value"
+                                    value="11"
+                                />
+                            </div>
+                        </div>
+                        <div class="td">
+                            <span class="td__name sum-item"></span>
+                        </div>
+                    </div>
+                    <div class="tr">
+                        <div class="td">
+                            <span class="td__name">Синий носок</span>
+                        </div>
+                        <div class="td">
+                            <div class="input">
+                                <input
+                                    type="number"
+                                    class="input-item input-item--count"
+                                    value="2"
+                                />
+                            </div>
+                        </div>
+                        <div class="td">
+                            <div class="input">
+                                <input
+                                    type="number"
+                                    class="input-item input-item--value"
+                                    value="4.22"
+                                />
+                            </div>
+                        </div>
+                        <div class="td">
+                            <span class="td__name sum-item"></span>
+                        </div>
+                    </div>
+                    <div class="tr">
+                        <div class="td">
+                            <span class="td__name">Бесцветный носок</span>
+                        </div>
+                        <div class="td">
+                            <div class="input">
+                                <input
+                                    type="number"
+                                    class="input-item input-item--count"
+                                    value="0"
+                                />
+                            </div>
+                        </div>
+                        <div class="td">
+                            <div class="input">
+                                <input
+                                    type="number"
+                                    class="input-item input-item--value"
+                                    value="55"
+                                />
+                            </div>
+                        </div>
+                        <div class="td">
+                            <span class="td__name sum-item"></span>
+                        </div>
+                    </div>
+                    <div class="tr tr--footer">
+                        <div class="td">
+                            <span class="td__name">Общая стоимость всех товаров</span>
+                        </div>
+                        <div class="td">
+                            <span class="td__name sum"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
